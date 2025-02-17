@@ -31,10 +31,10 @@ public class WhiteboardClient extends JFrame {
 
 
         Toolkit toolkit = Toolkit.getDefaultToolkit();
-        Image pencilImage = toolkit.getImage("pencil_cursor.png");
-        Cursor pencilCursor = toolkit.createCustomCursor(pencilImage, new Point(0, 0), "Pencil");
-        Image eraserImage = toolkit.getImage("eraser_cursor.png");
-        Cursor eraserCursor = toolkit.createCustomCursor(eraserImage, new Point(0, 0), "Eraser");
+        Image pencilImage = toolkit.getImage("pencil_icon.png");
+        Cursor pencilCursor = toolkit.createCustomCursor(pencilImage, new Point(0, 30), "Pencil");
+        Image eraserImage = toolkit.getImage("eraser_icon.png");
+        Cursor eraserCursor = toolkit.createCustomCursor(eraserImage, new Point(0, 25), "Eraser");
 
 
         canvas = new JPanel() {
