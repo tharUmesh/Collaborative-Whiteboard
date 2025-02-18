@@ -10,7 +10,7 @@ public class WhiteboardClient extends JFrame {
     private JPanel canvas;
     private Color currentColor = Color.BLACK;
     private int brushSize = 5;
-    private int eraserSize = 5; // Eraser size
+    private int eraserSize = 5;
     private boolean eraserMode = false;
     private boolean pencilMode = true;
     private Font font = new Font("Arial", Font.PLAIN, 14);
